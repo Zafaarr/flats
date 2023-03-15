@@ -1,0 +1,14 @@
+@mixin title($fz, $lh, $fw: 400, $c: #475658) {
+  font-size: $fz;
+  line-height: $lh;
+  font-weight: $fw;
+  color: $c;
+  font-family: "Lato";
+}
+
+// @mixin question($fz, $lh, $fw, $c: #ffffff) {
+//   font-size: $fz;
+//   line-height: $lh;
+//   font-weight: $fw;
+//   color: $c;
+// }
